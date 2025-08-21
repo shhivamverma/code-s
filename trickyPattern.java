@@ -1,7 +1,8 @@
-class trickyPattern
-{
-    public static void main(String args[])
-    {
+class trickyPattern                                                        //  1    2    3    4    5
+{                                                                          //  16   17   24   23   6
+                                                                           //  15   18   25   22   7
+    public static void main(String args[])                                 //  14   19   20   21   8
+    {                                                                      //  13   12   11   10   9
         
         int n=5;
         int m=5;
