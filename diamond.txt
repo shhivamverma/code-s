@@ -1,0 +1,39 @@
+class diamondd
+{
+    public static void main(String args[])
+    {
+        int n=4;
+        for(int i=1;i<=n;i++)
+        {
+            for(int j=1;j<=n-i;j++)
+            {
+                System.out.print(" ");
+            }
+            for(int m=1;m<=i;m++)
+            {
+                System.out.print("*");
+            }
+            for(int k=2;k<=i;k++)
+            {
+                System.out.print("*");
+            }
+            System.out.println();
+        }
+        for(int y=1;y<=n-1;y++)
+        {
+            for(int h=1;h<=y;h++)
+            {
+                System.out.print(" ");
+            }
+            for(int z=y;z<=n-1;z++)
+            {
+                System.out.print("*");
+            }
+            for(int d=y;d<=n-2;d++)
+            {
+                System.out.print("*");
+            }
+            System.out.println();
+        }
+    }
+}
