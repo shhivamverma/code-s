@@ -1,4 +1,4 @@
-class snake_pattern                                                           // 1 10 11 20  21
+class snake_pattern                                                           // 1 10 11 20 21
 {                                                                             // 2 9 12 19 22
     public static void main(String args[])                                    // 3 8 13 18 23
     {                                                                         // 4 7 14 17 24
@@ -33,3 +33,4 @@ class snake_pattern                                                           //
     }
 
 }
+
