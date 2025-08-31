@@ -1,10 +1,10 @@
 import java.util.*;
 class patt10
-{
-    public static void main(String args[])
-    {
-        Scanner sc=new Scanner(System.in);
-        System.out.println("Enter the value of n");
+{                                                                                     // for n=4
+    public static void main(String args[])                                            // 1 3 4 10
+    {                                                                                 // 2 5 9 11
+        Scanner sc=new Scanner(System.in);                                            // 6 8 12 15  
+        System.out.println("Enter the value of n");                                   // 7 13 14 16
         int n=sc.nextInt();
         int arr[][]=new int[n][n];
         int num=1;
@@ -44,5 +44,6 @@ class patt10
         }
     }
 }
+
 
  
