@@ -1,14 +1,14 @@
 import java.util.*;
 class heart
-{
-    public static void main(String args[])
-    {
-        Scanner sc=new Scanner(System.in);
-        int n=sc.nextInt();
-        for(int i=n/2;i<n;i+=2)
-        {
-         for(int j=1;j<n-i;j+=2)
-        {
+{                                                                                      // For n=5;
+    public static void main(String args[])                                        
+    {                                                                              //     **   **
+        Scanner sc=new Scanner(System.in);                                         //    **** ****
+        int n=sc.nextInt();                                                        //    *********
+        for(int i=n/2;i<n;i+=2)                                                    //     *******
+        {                                                                          //      *****
+         for(int j=1;j<n-i;j+=2)                                                   //       ***
+        {                                                                          //        *
             System.out.print(" ");
         }
         for(int m=1;m<=i;m++)
@@ -38,4 +38,5 @@ class heart
         System.out.println();
     }
 }
+
 }
